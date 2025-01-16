@@ -1,6 +1,8 @@
 # Aru-OUSSB.github.io
 レートランキング作成と公開を行うコードです。
 
+リンク：[https://aru-ou.github.io/](https://aru-ou.github.io/)
+
 # 環境構築（Windows）
 ## 0. 編集権限の付与
 GitHubに登録後、DMで私にアカウント名を教えてください。編集権限を付与します。
