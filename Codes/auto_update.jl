@@ -1,5 +1,4 @@
 run(`git add Codes`)
-run(`git add Figs`)
 run(`git add index.html`)
 run(`git add README.md`)
 run(`git add start_auto_update.bat`)
