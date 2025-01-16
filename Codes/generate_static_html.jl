@@ -16,7 +16,9 @@ function generate_ranking_table()
         
         for i in 1:N
             row = (img_url=df.url[i], name=df.Name[i], current_rate=df.Now[i], max_rate=df.Max[i], Log = df.Log[i])
-            
+            if row.max_rate == 1000
+                break
+            end
             player_html = """
                 <tr>
                     <td>$(i)</td>
@@ -57,7 +59,9 @@ function generate_ranking_table()
         
         for i in 1:N
             row = (img_url=df2.url[i], name=df2.Name[i], current_rate=df2.Now[i], max_rate=df2.Max[i], Log = df2.Log[i])
-            
+            if row.max_rate == 1000
+                break
+            end
             player_html = """
                 <tr>
                     <td>$(i)</td>
