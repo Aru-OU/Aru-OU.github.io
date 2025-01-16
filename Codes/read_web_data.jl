@@ -54,7 +54,7 @@ function ID2df(i,user_name,user_image_url,rate_now,rate_max,rate_log)
     for retry_count in 1:max_retries
         try            
             # リクエスト前に少し待機
-            sleep(rand(2:4))
+            sleep(rand(5:8))
             
             response = HTTP.get(url)
 
