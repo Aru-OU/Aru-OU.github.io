@@ -7,3 +7,4 @@ git commit -m "setting"
 git pull https://github.com/Aru-OU/Aru-OU.github.io.git main:main -f
 git checkout main
 git remote add origin https://github.com/Aru-OU/Aru-OU.github.io.git
+git push origin main
